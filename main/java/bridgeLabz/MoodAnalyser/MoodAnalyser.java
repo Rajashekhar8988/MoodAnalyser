@@ -5,9 +5,9 @@ public class MoodAnalyser {
 	//method to analyze mood by reading string
 	public String analyseMood(String message) {
 		if (message.contains("Happy")) {
-			return "Happy";
+			return "HAPPY";
 		} else if (message.contains("Sad")) {
-			return "Sad";
+			return "SAD";
 		} else {
 			return null;
 		}
